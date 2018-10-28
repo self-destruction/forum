@@ -1,0 +1,38 @@
+body {
+    font-size: 13px;
+    color: #333;
+}
+.my_col {
+    min-height: 40px;
+}
+
+.my_col, .main, .table-container {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.table-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*margin: 10px;*/
+    /*width: 80%;*/
+    /*min-width: 580px;*/
+}
+
+.element {
+    /*
+     * выравнивание по центру
+     * по горизонтали и вертикали
+     */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.heading {
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
